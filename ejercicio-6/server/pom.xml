@@ -15,3 +15,16 @@
         </dependency>
     </dependencies>
 </project>
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>3.4.1</version>
+            <configuration>
+                <mainClass>com.ejercicio6.server.ServerApp</mainClass>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
